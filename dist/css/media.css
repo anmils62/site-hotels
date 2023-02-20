@@ -1,0 +1,758 @@
+/* 0px - 576px */
+
+@media (min-width: 200px) and (max-width: 576px) {
+
+    .container {
+        margin-right: 5px; 
+        margin-left: 5px;
+    }
+
+    .header__logo-phone-account {
+        flex-direction: column;
+    }
+
+    .header__logo, .header__phone {
+        margin-bottom: 15px;
+    }
+
+    .header__personal-account {
+        flex-direction: row-reverse;
+        
+    }
+
+    .header__personal-account-icon {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .header__nav-list, .header__btn-tour {
+        display: none;
+    }
+
+    .header__nav-btn {
+        padding-right: 10px;
+    }
+
+    .section-heading {
+        font-size: 32px;
+    }
+
+    .section-offers__hotel-content {
+        display: none;
+    }
+
+    .section-offers__item-maldives, .section-offers__item-crete {
+        max-width: 100%;
+    }
+
+    .section-offers__container, 
+    .section-services__container, 
+    .section-about-us__container {
+        padding-bottom: 30px;
+    }
+
+    .section-about-us__section-description {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-services__item {
+        max-width: 100%;
+    }
+    .section-services__item:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+
+    .services-mobile {
+        display: none;
+    }
+
+    .services-active {
+        display: block;
+    }
+
+    .section-services__btn-all {
+        display: block;
+        margin: auto;
+        padding-left: 55px;
+        padding-right: 55px;
+        margin-bottom: 25px;
+    }
+
+    .section-services__list {
+        flex-direction: column;
+    }
+
+    .section-advantages {
+        display: none;
+    }
+
+    .section-placement__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-placement__item:not(:nth-child(3n)) {
+        margin-right: 0;
+    }
+
+    .section-placement__item {
+        margin-bottom: 20px;
+    }
+
+    .none-card {
+        display: none;
+    }
+
+    .card-active {
+        display: block;
+    }
+
+    .section-placement__all-link {
+        padding: 1px 15px;
+        border: 0;
+        background: none;
+    }
+
+    .section-placement__item-all {
+        display: block;
+        padding: 25px 10px 25px 10px;
+        margin-bottom: 0;
+    }
+
+    .section-tour__form {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .mobile-form {
+        margin-bottom: 35px;
+    }
+
+    .section-contacts__office-contacts {
+        display: block;
+    }
+
+    .section-contacts__btn-contacts {
+        display: none;
+    }
+
+    .section-contacts__office-info, .section-contacts__adress {
+        font-size: 14px;
+    }
+
+    .section-contacts__office-heading, .section-contacts__office-adress {
+        font-size: 17px;
+    }
+
+    .section-contacts__container {
+        margin-bottom: 15px;
+    }
+
+    .footer__right-left {
+        display: block;
+        padding: 35px 30px;
+    }
+
+    .footer__right {
+        margin-right: 0;
+    }
+
+    .footer__info-right {
+        max-width: 100%;
+    }
+
+    .footer__img {
+        display: none;
+    }
+
+    .footer__left {
+        display: none;
+    }
+
+    .footer__social-list {
+        display: flex;
+    }
+
+    .footer__social-item {
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+
+    .header__popup-form {
+        width: 330px;
+    }
+
+
+    /* Burger */
+
+    .header__burger-menu {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 35px;
+    }
+
+    .header__burger-span, .header__burger-menu:after, .header__burger-menu:before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #666;
+        margin: 0 auto;
+    }
+    .header__burger-span {
+        top: 16px;
+    }
+    .header__burger-menu:after, .header__burger-menu:before{
+        content: '';
+    }
+    .header__burger-menu:after{
+        bottom: 5px;
+    }
+    .header__burger-menu:before{
+        top: 5px;
+    }
+
+    /* для меню */
+    .is-active {
+        display: block;
+    }
+
+    .header__nav-list {
+        position: absolute;
+        top: 256px;
+        left: 0;
+        z-index: 10;
+        width: 300px;
+        padding: 30px;
+        background-color: #e1e1e1;
+        border-radius: 15px;
+    }
+
+    .header__nav-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .benefits {
+        display: none;
+    }
+
+    
+}
+
+/* 576px - 768px */
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header__container {
+        margin-right: 5px; 
+        margin-left: 5px;
+    }
+
+    .header__logo-phone-account {
+        flex-direction: column;
+    }
+
+    .header__logo, .header__phone {
+        margin-bottom: 15px;
+    }
+
+    .header__personal-account {
+        flex-direction: row-reverse;
+        
+    }
+
+    .header__personal-account-icon {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__nav-btn {
+        padding-right: 10px;
+    }
+
+    .section-heading {
+        font-size: 32px;
+    }
+
+    .section-offers__hotel-content {
+        display: none;
+    }
+
+    .section-offers__list {
+        margin: 0 auto;
+    }
+
+    .section-offers__item-maldives, .section-offers__item-crete {
+        max-width: 100%;
+    }
+
+    .section-offers__container, 
+    .section-services__container, 
+    .section-about-us__container {
+        padding-bottom: 30px;
+    }
+
+    .section-about-us__section-description {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    
+    .section-services__item:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+
+    .services-mobile {
+        display: none;
+    }
+
+    .services-active {
+        display: block;
+    }
+
+    .section-services__btn-all {
+        display: block;
+        margin: auto;
+        padding-left: 95px;
+        padding-right: 95px;
+        margin-bottom: 25px;
+    }
+
+    .section-services__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-advantages {
+        display: none;
+    }
+
+    .section-placement__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-placement__item:not(:nth-child(3n)) {
+        margin-right: 0;
+    }
+
+    .section-placement__item {
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+
+    .none-card {
+        display: none;
+    }
+
+    .card-active {
+        display: block;
+    }
+
+    .section-placement__all-link {
+        padding: 1px 15px;
+        border: 0;
+        background: none;
+    }
+
+    .section-placement__item-all {
+        display: block;
+        padding: 25px 20px 25px 20px;
+        margin-bottom: 0;
+    }
+
+    .section-tour__form {
+        display: block;
+        width: 478px;
+        padding-left: 50px;
+        margin: 0 auto;
+    }
+
+    .mobile-form {
+        margin-bottom: 35px;
+    }
+
+    .section-contacts__office-contacts {
+        display: block;
+    }
+
+    .section-contacts__btn-contacts {
+        display: none;
+    }
+
+    .section-contacts__office-info, .section-contacts__adress {
+        font-size: 14px;
+    }
+
+    .section-contacts__office-heading, .section-contacts__office-adress {
+        font-size: 17px;
+    }
+    
+    .section-contacts__container {
+        margin-bottom: 15px;
+    }
+
+    .footer__right-left {
+        display: block;
+        padding: 35px 30px;
+    }
+
+    .footer__right {
+        margin-right: 0;
+    }
+
+    .footer__info-right {
+        max-width: 100%;
+    }
+
+    .footer__img {
+        display: none;
+    }
+
+    .footer__left {
+        display: none;
+    }
+
+    .footer__social-list {
+        display: flex;
+    }
+
+    .footer__social-item {
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+
+    .header__popup-form {
+        width: 330px;
+    }
+
+
+    /* Burger */
+
+    .header__burger-menu {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 35px;
+    }
+
+    .header__burger-span, .header__burger-menu:after, .header__burger-menu:before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #666;
+        margin: 0 auto;
+    }
+    .header__burger-span {
+        top: 16px;
+    }
+    .header__burger-menu:after, .header__burger-menu:before{
+        content: '';
+    }
+    .header__burger-menu:after{
+        bottom: 5px;
+    }
+    .header__burger-menu:before{
+        top: 5px;
+    }
+
+    /* для меню */
+    .is-active {
+        display: block;
+    }
+
+    .header__nav-list {
+        position: absolute;
+        top: 256px;
+        left: 0;
+        z-index: 10;
+        width: 300px;
+        padding: 30px;
+        background-color: #e1e1e1;
+        border-radius: 15px;
+        /*transform: translateX(-101%);
+        transition: transform .3s ease-in-out;*/
+    }
+
+    .header__nav-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .benefits {
+        display: none;
+    }
+}
+
+/* 768px - 992px */
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header__container {
+        margin-right: 5px; 
+        margin-left: 5px;
+    }
+
+    .header__nav-item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .header__btn-tour {
+        display: none;
+    }
+
+    .section-offers__content {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .section-offers__hotel-content {
+        display: none;
+    }
+
+    .section-offers__list {
+        flex-direction: inherit;
+    }
+
+    .section-offers__item-maldives {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .section-about-us__container {
+        margin-left: 10px;
+    }
+
+    .section-services__item:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+
+    .services-mobile {
+        display: none;
+    }
+
+    .services-active {
+        display: block;
+    }
+
+    .section-services__btn-all {
+        display: block;
+        margin: auto;
+        padding-left: 95px;
+        padding-right: 95px;
+        margin-bottom: 25px;
+    }
+
+    .section-services__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-advantages__list {
+        justify-content: center;
+
+    }
+
+    .section-advantages__item {
+        margin-right: 20px;
+    }
+
+    .swimming-pool, .security-box {
+        display: none;
+    }
+
+    .section-placement__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-placement__item {
+        margin-bottom: 20px;
+        max-width: 500px;
+        margin-right: 20px;
+    }
+
+    .none-card {
+        display: none;
+    }
+
+    .card-active {
+        display: block;
+    }
+
+    .section-placement__all-link {
+        padding: 1px 15px;
+        border: 0;
+        background: none;
+    }
+
+    .section-placement__item-all {
+        display: block;
+        padding: 25px 20px 25px 20px;
+        margin-bottom: 0;
+    }
+
+    .section-tour__container {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .section-tour__form {
+        flex-wrap: wrap;
+    }
+
+    .section-tour__btn-form {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section-contacts__container {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer__right-left {
+        display: block;
+        padding: 35px 30px;
+    }
+
+    .footer__right {
+        margin-right: 0;
+    }
+
+    .footer__info-right {
+        max-width: 100%;
+    }
+
+    .footer__img {
+        display: none;
+    }
+
+    .footer__left {
+        display: none;
+    }
+
+    .footer__social-list {
+        display: flex;
+    }
+
+    .footer__social-item {
+        margin-top: 20px;
+        margin-right: 25px;
+    } 
+} 
+
+
+/* 992px - 1087px */
+
+@media (min-width: 993px) and (max-width: 1087px) {
+
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section-services__list {
+        justify-content: space-evenly;
+    }
+
+    .section-services__item {
+        max-width: 460px;
+    }
+
+    .section-about-us__section-description {
+        margin-left: 10px;
+    }
+
+    .section-advantages__list {
+        justify-content: center;
+    }
+
+    .section-advantages__item {
+        margin-right: 20px;
+    }
+
+    .swimming-pool, .security-box {
+        display: none;
+    }
+
+    .section-placement__item:not(:nth-child(3n)) {
+        margin-right: auto;
+    }
+
+    .section-placement__item, .section-placement__item-all {
+        max-width: 320px;
+    }
+
+    .section-placement__img-stars {
+        margin-left: 23px;
+    }
+    
+}
+
+
+/* 1088px - 1200px */
+
+@media (min-width: 1088px) and (max-width: 1200px) {
+
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .section-services__list {
+        justify-content: space-evenly;
+    }
+
+    .section-advantages__list, .section-placement__list {
+        justify-content: center;
+    }
+
+    .footer__social-list {
+        margin-left: 50px;
+    }
+}
+
+
+/* 1201px - 1340px */
+
+@media (min-width: 1201px) and (max-width: 1347px) {
+    .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .section-services__list {
+        justify-content: space-evenly;
+    }
+
+    .section-advantages__list, .section-placement__list {
+        justify-content: center;
+    }
+
+    .footer__social-list {
+        margin-left: 90px;
+    }
+}
+

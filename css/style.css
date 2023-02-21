@@ -12,8 +12,8 @@
     font-family: "Muller";
     font-style: normal;
     font-display: swap;
-    src: url('https://anmils62.github.io/site-hotels/dist/fonts/2DF5B4_D_0.woff2') format("woff2"),
-         url('https://anmils62.github.io/site-hotels/dist/fonts/2DF5B4_D_0.woff') format("woff");
+    src: url('https://anmils62.github.io/site-hotels/fonts/2DF5B4_D_0.woff2') format("woff2"),
+         url('https://anmils62.github.io/site-hotels/fonts/2DF5B4_D_0.woff') format("woff");
 }
   
 @font-face {
@@ -21,8 +21,8 @@
     font-family: "Muller";
     font-style: normal;
     font-display: swap;
-    src: url('https://anmils62.github.io/site-hotels/dist/fonts/2DF5B4_2_0.woff2') format("woff2"),
-         url('https://anmils62.github.io/site-hotels/dist/fonts/2DF5B4_2_0.woff') format("woff");
+    src: url('https://anmils62.github.io/site-hotels/fonts/2DF5B4_2_0.woff2') format("woff2"),
+         url('https://anmils62.github.io/site-hotels/fonts/2DF5B4_2_0.woff') format("woff");
 }
   
 * {
@@ -117,7 +117,7 @@ img {
     margin-right: 10px;
     width: 21px;
     height: 12px;
-    background: url(https://anmils62.github.io/site-hotels/dist/img/Vector.svg) center center no-repeat transparent; 
+    background: url(https://anmils62.github.io/site-hotels/img/Vector.svg) center center no-repeat transparent; 
     transform: translateY(1px);
 }
 
@@ -311,20 +311,20 @@ img {
     width: 11px;
     height: 11px;
     color: #F0BF5F;
-    background: url(https://anmils62.github.io/site-hotels/dist/img/icon2.svg) no-repeat;
+    background: url(https://anmils62.github.io/site-hotels/img/icon2.svg) no-repeat;
     
 }
 
 .section-offers__item-maldives {
     margin-bottom: 20px;
     padding-bottom: 17px;
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(https://anmils62.github.io/site-hotels/dist/img/maldives.png) no-repeat;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(https://anmils62.github.io/site-hotels/img/maldives.png) no-repeat;
     border-radius: 15px;
 }
 
 .section-offers__item-crete {
     padding-bottom: 15px;
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(https://anmils62.github.io/site-hotels/dist/img/crete.png) no-repeat;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(https://anmils62.github.io/site-hotels/img/crete.png) no-repeat;
     border-radius: 15px;
    
 }
@@ -342,7 +342,7 @@ img {
     margin-left: 20px;
     margin-top: auto;
     padding: 150px 200px 40px 45px;
-    background: url(https://anmils62.github.io/site-hotels/dist/img/hotel.png) no-repeat;
+    background: url(https://anmils62.github.io/site-hotels/img/hotel.png) no-repeat;
     border-radius: 15px;
     
 }
@@ -424,7 +424,7 @@ img {
     width: 11px;
     height: 11px;
     color: #F0BF5F;
-    background: url(https://anmils62.github.io/site-hotels/dist/img/icon2.svg) no-repeat;
+    background: url(https://anmils62.github.io/site-hotels/img/icon2.svg) no-repeat;
     transform: translateY(13px);
 }
 
@@ -486,35 +486,35 @@ img {
 }
 
 .section-advantages__icon-bathtub {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/bathtub.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/bathtub.png);
 }
 
 .section-advantages__icon-hanger {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/hanger.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/hanger.png);
 }
 
 .section-advantages__icon-heating {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/heating.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/heating.png);
 }
 
 .section-advantages__icon-hotel-key {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/hotel-key.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/hotel-key.png);
 }
 
 .section-advantages__icon-parking {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/parking.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/parking.png);
 }
 
 .section-advantages__icon-reception {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/reception.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/reception.png);
 }
 
 .section-advantages__icon-security-box {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/security-box.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/security-box.png);
 }
 
 .section-advantages__icon-swimming-pool {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/swimming-pool.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/swimming-pool.png);
 }
 
 /* Размещение / Placement */
@@ -606,7 +606,7 @@ img {
     height: 11px;
     padding-left: 15px;
     margin-left: 10px;
-    background: url(https://anmils62.github.io/site-hotels/dist/img/Rectangle2.png) no-repeat;
+    background: url(https://anmils62.github.io/site-hotels/img/Rectangle2.png) no-repeat;
 }
 
 /* Хочу тур / Tour*/
@@ -826,15 +826,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer__social-icon {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/Component25.png); 
+    background-image: url(https://anmils62.github.io/site-hotels/img/Component25.png); 
 }
 
 .footer__social-ok {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/ok.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/ok.png);
 }
 
 .footer__social-vk {
-    background-image: url(https://anmils62.github.io/site-hotels/dist/img/vk.png);
+    background-image: url(https://anmils62.github.io/site-hotels/img/vk.png);
 }
 
 

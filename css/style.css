@@ -3,8 +3,8 @@
     font-family: "Muller";
     font-style: normal;
     font-display: swap;
-    src: url('https://anmils62.github.io/site-hotels/dist/fonts/2DF5B4_F_0.woff2') format("woff2"),
-         url('https://anmils62.github.io/site-hotels/dist/fonts/2DF5B4_F_0.woff') format("woff");
+    src: url('https://anmils62.github.io/site-hotels/fonts/2DF5B4_F_0.woff2') format("woff2"),
+         url('https://anmils62.github.io/site-hotels/fonts/2DF5B4_F_0.woff') format("woff");
 }
    
 @font-face {
@@ -585,7 +585,7 @@ img {
     align-items: flex-end;
     max-width: 340px;
     margin-bottom: 25px;
-    background: url(https://anmils62.github.io/site-hotels/dist/img/41.png) no-repeat;
+    background: url(https://anmils62.github.io/site-hotels/img/41.png) no-repeat;
     border-radius: 15px;
     background-size: cover;
 }

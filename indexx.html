@@ -1,0 +1,544 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagoona</title>
+
+    <!-- fonts -->
+    <link rel="preload" href="dist/fonts/2DF5B4_2_0.woff2" as="font">
+    <link rel="preload" href="dist/fonts/2DF5B4_D_0.woff2" as="font">
+    <link rel="preload" href="dist/fonts/2DF5B4_F_0.woff2" as="font">
+
+    <!-- css -->
+    <link rel="stylesheet" href="dist/css/normalize.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/media.css">
+
+    <!-- js -->
+    <script defer src="/dist/js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo-phone-account">
+                <a href="" class="logo header__logo">
+                    <img src="dist/img/logo.svg" alt="Lagoona" class="header__logo-img">
+                </a>
+                <a href="tel:+74953225448" class="header__phone link">
+                    +7 495 322-54-48
+                </a>
+                <a href="" class="header__personal-account link">
+                    <span class="header__personal-account-icon"></span>
+                    Личный кабинет
+                </a>
+            </div>
+            <div class="header__nav-btn">
+                <nav class="header__nav">
+                    <ul id="menu" class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#about-us" class="header__nav-link">О нас</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#section-services" class="header__nav-link">Услуги</a>
+                        </li>
+                        <li class="header__nav-item benefits">
+                            <a href="#section-advantages" class="header__nav-link">Преимущества</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#section-placement" class="header__nav-link">Размещение</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#section-contacts" class="header__nav-link">Контакты</a>
+                        </li>
+                    </ul>
+
+                    <!-- burger -->
+                    <div id="burger" class="header__burger-menu">
+                        <span class="header__burger-span"></span>
+                    </div>
+
+                </nav>
+                <ul class="header__btn-list">
+                    <li class="header__btn-item">
+                        <button type="submit" class="btn header__btn-tour js-popup">Хочу тур</button>
+                    </li>
+                    <li class="header__btn-item">
+                        <button type="submit" class="btn header__btn-call js-popup">Обратный звонок</button>
+                    </li>
+                </ul>
+
+                <!-- pop-up -->
+                <div class="header__popup"> 
+                    <form class="header__popup-form">
+                        <img src="/dist/img/closeoutline.svg"  alt="close" class="header__close-popup">
+                        <label class="header__popup-label">
+                            <input type="text" name="name" placeholder="Ваше имя" class="header__popup-input">
+                        </label>
+                        <label class="header__popup-label">
+                            <input type="tel" name="tel" placeholder="Ваш телефон" class="header__popup-input">
+                        </label>
+                        <label class="header__popup-label">
+                            <textarea name="message" placeholder="Ваше сообщение" class="header__popup-textarea"></textarea>
+                        </label>
+                        <button type="submit" class="btn header__popup-btn">Отправить</button>
+                    </form>
+                </div>  
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Спецпредложения -->
+        <section class="section-offers">
+            <div class="container section-offers__container">
+                <h1 class="section-heading section-offers__section-heading">
+                    Спецпредложения
+                </h1> 
+                <div class="section-offers__content">
+                    <ul class="section-offers__list">
+                        <li class="item section-offers__item-maldives">
+                            <strong class="item-heading section-offers__item-heading-maldives">
+                                Мальдивские острова
+                            </strong>
+                            <p class="item-description section-offers__item-description-maldives">от 70 000 р.</p>
+                            <a href="" class="section-offers__link link">Подробнее
+                                <span class="section-offers__icon"></span>
+                            </a>
+                        </li>
+                        <li class="item section-offers__item-crete">
+                            <strong class="item-heading section-offers__item-heading-crete">
+                                Горящий тур на остров Крит
+                            </strong>
+                            <p class="item-description section-offers__item-description-crete">от 50 000 р.</p>
+                            <a href="" class="section-offers__link link">Подробнее
+                                <span class="section-offers__icon"></span>
+                            </a>
+                        </li>
+                    </ul> 
+                    <div class="section-offers__hotel-content">
+                        <strong class="section-offers__heading-hotel">
+                            Номера категории люкс
+                        </strong>
+                        <p class="section-offers__description-hotel">от 15 000 р.</p>
+                        <a href="" class="section-offers__link link">Подробнее
+                            <span class="section-offers__icon"></span>
+                        </a>
+                    </div>  
+                </div>     
+            </div>
+        </section>
+        <!-- О нас -->
+        <section class="section-about-us">
+            <div class="container section-about-us__container">
+                <h2 class="section-heading section-about-us__section-heading" id="about-us">О нас</h2>
+                <p class="section-description section-about-us__section-description">
+                    Lagoona славится своим радужным гостеприимством, комфортом и атмосферой доброжелательности. За годы работы мы стали частью жизни, характера и настроения множества городов и стран. Здесь останавливаются гости со всех уголков земного шара. Наши гости всегда могут рассчитывать на сервис высочайшего уровня. Комфорт, домашнюю атмосферу и высокий уровень обслуживания обеспечивают доброжелательные и квалифицированные сотрудники.
+                </p>
+            </div>
+        </section>
+        <!-- Услуги -->
+        <section class="section-services">
+            <div class="container section-services__container">
+                <h2 class="section-heading section-services__section-heading" id="section-services">Услуги</h2>
+                <ul class="section-services__list">
+                    <li class="section-services__item">
+                        <img src="/dist/img/10.png" alt="Обслуживание" class="section-services__img">
+                        <a href="" class="section-services__item-heading link">
+                            Эксклюзивное обслуживание
+                            <span class="section-services__icon"></span>
+                        </a>
+                        <p class="section-services__item-description">
+                            Мы хотим, чтобы вы ощутили гостеприимную, теплую и оживленную атмосферу наших отелей и смогли насладиться уникальностью Lagoona.
+                        </p>
+                    </li>
+                    <li class="section-services__item">
+                        <img src="/dist/img/15.png" alt="Банкетный зал" class="section-services__img">
+                        <a href="" class="section-services__item-heading link">
+                            Аренда банкетных залов
+                            <span class="section-services__icon"></span>
+                        </a>
+                        <p class="section-services__item-description">
+                            Наслаждайтесь вкусными блюдами в приятной компании в наших ресторанах с открытой планировкой. 
+                        </p>
+                    </li>
+                    <li class="section-services__item services-mobile">
+                        <img src="/dist/img/12.png" alt="Бассейн" class="section-services__img">
+                        <a href="" class="section-services__item-heading link">
+                            Сауны, бассейны, бани, фитнес-залы
+                            <span class="section-services__icon"></span>
+                        </a>
+                        <p class="section-services__item-description">
+                            В течение всего пребывания вы сможете вести активный образ жизни и сохранять баланс. Включите в график занятия в нашем фитнес-центре.
+                        </p>
+                    </li>
+                    <li class="section-services__item parking services-mobile">
+                        <img src="/dist/img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png" alt="Автомобильная стоянка" class="section-services__img">
+                        <a href="" class="section-services__item-heading link">
+                            Охраняемые автомобильные стоянки
+                            <span class="section-services__icon"></span>
+                        </a>
+                        <p class="section-services__item-description">
+                            Остановитесь у нас на одну ночь и хорошо выспитесь, не переживая за припаркованную машину.
+                        </p>
+                    </li>
+                </ul>
+                <button type="submit" id="btn-all" class="btn section-services__btn-all">Показать все</button>
+            </div>
+        </section>
+        <!-- Преимущества -->
+        <section class="section-advantages">
+            <div class="container section-advantages__container">
+                <h2 class="section-heading section-advantages__section-heading" id="section-advantages">Преимущества</h2>
+                <ul class="section-advantages__list">
+                    <li class="section-advantages__item">
+                        <span class="icon section-advantages__icon-bathtub"></span>
+                        <p class="section-advantages__item-description">
+                            Оздоровительные процедуры
+                        </p>
+                    </li>
+                    <li class="section-advantages__item">
+                        <span class="icon section-advantages__icon-hanger"></span>
+                        <p class="section-advantages__item-description">
+                            Вечерний сервис в номерах
+                        </p>
+                    </li>
+                    <li class="section-advantages__item">
+                        <span class="icon section-advantages__icon-heating"></span>
+                        <p class="section-advantages__item-description">
+                            Уютные номера
+                        </p>
+                    </li>
+                    <li class="section-advantages__item">
+                        <span class="icon section-advantages__icon-hotel-key"></span>
+                        <p class="section-advantages__item-description">
+                            Ежедневная уборка номера
+                        </p>
+                    </li>
+                    <li class="section-advantages__item">
+                        <span class="icon section-advantages__icon-parking"></span>
+                        <p class="section-advantages__item-description">
+                            Охраняемая парковка 
+                        </p>
+                    </li>
+                    <li class="section-advantages__item">
+                        <span class="icon section-advantages__icon-reception"></span>
+                        <p class="section-advantages__item-description">
+                            Круглосуточное обслуживание в номерах
+                        </p>
+                    </li>
+                    <li class="section-advantages__item security-box">
+                        <span class="icon section-advantages__icon-security-box"></span>
+                        <p class="section-advantages__item-description">
+                            Сейф в номере
+                        </p>
+                    </li>
+                    <li class="section-advantages__item swimming-pool">
+                        <span class="icon section-advantages__icon-swimming-pool"></span>
+                        <p class="section-advantages__item-description">
+                            Бассейн
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Размещение -->
+        <section class="section-placement">
+            <div class="container section-placement__container">
+                <h2 class="section-heading section-placement__section-heading" id="section-placement">Размещение</h2>
+                <ul class="section-placement__list">
+                    <li class="section-placement__item greece">
+                        <img src="/dist/img/23.png" alt="Греция" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"> <span class="section-placement__price">от</span> 27 200 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 4 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector(1).png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona española</div> 
+                            <div class="section-placement__item-country">Греция</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item turkey">
+                        <img src="/dist/img/24.png" alt="Турция" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"> <span class="section-placement__price">от</span> 25 000 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 4 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector(1).png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona son típicas</div> 
+                            <div class="section-placement__item-country">Турция</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item sri-lanka none-card">
+                        <img src="/dist/img/26.png" alt="Шри Ланка" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"><span class="section-placement__price">от</span> 35 842 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 5 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona de la guerra</div> 
+                            <div class="section-placement__item-country">Шри Ланка</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item cyprus none-card">
+                        <img src="/dist/img/29-1.png" alt="Кипр" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"><span class="section-placement__price">от</span> 41 516 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 5 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona mentira piadosa</div> 
+                            <div class="section-placement__item-country">Кипр</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item dominican none-card">
+                        <img src="/dist/img/30.png" alt="Доминикана" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"><span class="section-placement__price">от</span> 96 000 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 3 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector(1).png" alt="">
+                                <img src="/dist/img/Vector(1).png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona empujar la creatividad</div> 
+                            <div class="section-placement__item-country">Доминикана</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item thailand none-card">
+                        <img src="/dist/img/31.png" alt="Таиланд" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"><span class="section-placement__price">от</span> 45 000 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 4 из 5"  class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector(1).png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona el retorno</div> 
+                            <div class="section-placement__item-country">Таиланд</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item cuba none-card">
+                        <img src="/dist/img/27.png" alt="Куба" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"><span class="section-placement__price">от</span> 139 000 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 5 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona mentira piadosa</div> 
+                            <div class="section-placement__item-country">Куба</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item israel none-card">
+                        <img src="/dist/img/29.png" alt="Израиль" class="section-placement__img">
+                        <div class="section-placement__info">
+                            <div class="section-placement__item-price"><span class="section-placement__price">от</span> 79 151 р.
+                                <img src="/dist/img/Vector.png" alt="Рейтинг отеля 5 из 5" class="section-placement__img-stars">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                                <img src="/dist/img/Vector.png" alt="">
+                            </div>
+                            <div class="section-placement__item-lagoona">Lagoona suerte siguió siempre</div> 
+                            <div class="section-placement__item-country">Израиль</div>
+                            <a href="" class="btn placement__btn">Номера</a> 
+                        </div>
+                    </li>
+                    <li class="section-placement__item-all">
+                        <button type="submit" id="link-all" class="section-placement__all-link link">Просмотреть все варианты</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Хочу тур -->
+        <section class="section-tour">
+            <div class="container section-tour__container">
+                <h2 class="section-heading section-tour__section-heading">Хочу тур</h2>
+                <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on"  method="post" class="form section-tour__form"> 
+                    <div class="section-tour__form-city mobile-form">
+                        <p class="section-tour__form-description">Город вылета</p>
+                        <select name="tour" class="section-tour__form-select">
+                            <option value="1" class="section-tour__form-option">Санкт-Петербург</option>
+                            <option value="2" class="section-tour__form-option">Москва</option>
+                            <option value="3" class="section-tour__form-option">Нижний Новгород</option>
+                            <option value="4" class="section-tour__form-option">Казань</option>
+                        </select>
+                    </div>
+                    <div class="section-tour__form-country mobile-form">
+                        <p class="section-tour__form-description">Страна</p>
+                        <select name="tour" class="section-tour__form-select">
+                            <option value="1" class="section-tour__form-option">Греция</option>
+                            <option value="2" class="section-tour__form-option">Турция</option>
+                            <option value="3" class="section-tour__form-option">Куба</option>
+                            <option value="4" class="section-tour__form-option">Кипр</option>
+                        </select>
+                    </div> 
+                    <div class="section-tour__form-data mobile-form">
+                        <p class="section-tour__form-description">Дата прибытия</p>
+                        <input type="date" name="data" value="2022-10-18" class="section-tour__input-data">
+                    </div>
+                    <div class="section-tour__form-night mobile-form">
+                        <p class="section-tour__form-description">Ночей</p>
+                        <input type="number" name="number" min="0" placeholder="7" class="section-tour__input-night">
+                    </div>
+                    <div class="section-tour__form-tourists mobile-form">
+                        <p class="section-tour__form-description">Туристы</p>
+                        <input type="number" name="number" min="0" placeholder="2" class="section-tour__input-tourists">
+                    </div>
+                    <button type="submit" class="btn section-tour__btn-form">Найти</button>
+                </form>
+            </div>
+        </section>
+        <!-- Контакты -->
+        <section class="section-contacts">
+            <div class="container section-contacts__container">
+                <h2 class="section-heading section-contacts__section-heading" id="section-contacts">Контакты</h2>
+                <div class="section-contacts__office-contacts">
+                    <div class="section-contacts__contacts-info">
+                        <table class="section-contacts__office-table">
+                            <tr class="section-contacts__table-info">
+                                <td class="section-contacts__office-adress">Адрес</td>
+                                <td class="section-contacts__adress">
+                                    Москва, улица Юности, дом 5 строение 4, офис 2
+                                </td>
+                            </tr>
+                            <tr class="section-contacts__contacts-colspan" >
+                                <td colspan="2" class="section-contacts__colspan"></td>
+                            </tr>
+                            <tr class="section-contacts__table-info">
+                                <td class="section-contacts__office-heading">Телефоны</td>
+                                <td class="section-contacts__office-info">
+                                    <a href="tel:+74995356434" class="section-contacts__link link">
+                                        +7 499 535-64-34
+                                    </a>
+                                    <br>
+                                    <a href="tel:+74950050544" class="section-contacts__link link">
+                                        +7 495 005-05-44
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="section-contacts__contacts-colspan" >
+                                <td colspan="2" class="section-contacts__colspan"></td>
+                            </tr>
+                            <tr class="section-contacts__table-info">
+                                <td class="section-contacts__office-heading">Email</td>
+                                <td class="section-contacts__office-info">
+                                    <a href="mailto:lg.oona@mail.ru" class="section-contacts__link link">
+                                        lg.oona@mail.ru
+                                    </a>
+                                    <div class="section-contacts__text">по вопросам бронирования</div>
+                                    <a href="mailto:hotels.ln@mail.ru" class="section-contacts__link link">
+                                        hotels.ln@mail.ru
+                                    </a>
+                                    <div class="section-contacts__text">по вопросам сотрудничества</div>
+                                </td>
+                            </tr>
+                            <tr class="section-contacts__contacts-colspan" >
+                                <td colspan="2" class="section-contacts__colspan"></td>
+                            </tr>
+                            <tr class="section-contacts__table-info">
+                                <td class="section-contacts__office-heading">График</td>
+                                <td class="section-contacts__office-info">
+                                    Понедельник-пятница, с 10:00 до 19:00
+                                </td>
+                            </tr>
+                            <tr class="section-contacts__contacts-colspan" >
+                                <td colspan="2" class="section-contacts__colspan"></td>
+                            </tr>
+                        </table>
+                        <a href="" class="btn section-contacts__btn-contacts">Построить маршрут</a>
+                    </div>
+                    <div class="section-contacts__office-img">
+                        <img src="/dist/img/Layer21.png" alt="Офис" class="section-contacts__img">
+                    </div>
+                </div>  
+            </div>
+        </section>
+    </main>
+    <!-- Футер -->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__right-left">
+                <div class="footer__right">
+                    <div class="footer__info-right">
+                        © 2012–2022 Управляющая компания Объединённой сети «Лагуна Хотелс»
+                    </div>
+                    <div class="footer__info-right">
+                        Представленная на сайте информация носит справочный характер и не является публичной офертой
+                    </div>
+                    <a href="" class="footer__link link">Пользовательское соглашение</a>
+                </div>
+                <div class="footer__left">
+                    <div class="footer__info-left">
+                        11710, улица Юности, дом 5 строение 4, офис 2
+                    </div>
+                    <div class="footer__contacts">
+                        <a href="tel:+74995356434" class="footer__link link">
+                            +7 499 535-64-34
+                        </a>
+                        <br>
+                        <a href="tel:+74950050544" class="footer__link link">
+                            +7 495 005-05-44
+                        </a>
+                    </div>
+                    <div class="footer__contacts">
+                        <a href="mailto:lg.oona@mail.ru" class="footer__link link">
+                            lg.oona@mail.ru
+                        </a>
+                        <br>
+                        <a href="mailto:hotels.ln@mail.ru" class="footer__link link">
+                            hotels.ln@mail.ru
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__img">
+                    <img src="/dist/img/Frame11.png" alt="Солнце" class="footer__img-sun">
+                </div>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="" class="footer__social-link">
+                            <span class="footer__icon footer__social-icon"></span>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="" class="footer__social-link">
+                            <span class="footer__icon footer__social-ok"></span>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="" class="footer__social-link">
+                            <span class=" footer__icon footer__social-vk"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
